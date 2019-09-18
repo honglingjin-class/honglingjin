@@ -200,6 +200,7 @@ public class ESManager {
 	 @Test
     public void test() throws Exception{
        System.out.println("李四");
+        client.close();
     }
 
 }
